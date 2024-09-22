@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Jafestro/Time_Calculator'
+                git branch: 'main', url: 'https://github.com/Jafestro/temp_convert'
             }
         }
         stage('Build') {
