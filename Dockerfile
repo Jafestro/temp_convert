@@ -10,4 +10,4 @@ COPY . /app/
 
 RUN mvn clean package
 
-CMD ["java", "-jar", "target/time_calculator-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/temp_convert-1.0-SNAPSHOT.jar"]

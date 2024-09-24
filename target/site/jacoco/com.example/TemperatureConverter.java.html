@@ -27,6 +27,9 @@
 <span class="fc" id="L27">        return (float) (kelvin - 273.15);</span>
     }
 
+    public static  double	kelvinToFah(double kel) {
+<span class="nc" id="L31">        return Math.round((kel-273.15)* (9/5) + 32);</span>
+    }
     /**
      * Checks if the given Celsius temperature is extreme.
      *
@@ -34,7 +37,11 @@
      * @return True if the temperature is below -40 or above 50, otherwise false.
      */
     public boolean isExtremeTemperature(double celsius) {
-<span class="fc bfc" id="L37" title="All 4 branches covered.">        return celsius &lt; -40 || celsius &gt; 50;</span>
+<span class="fc bfc" id="L40" title="All 4 branches covered.">        return celsius &lt; -40 || celsius &gt; 50;</span>
     }
+
+    public static void main(String[] args) {
+<span class="nc" id="L44">        System.out.println(&quot;Docker DOne&quot;);</span>
+<span class="nc" id="L45">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
